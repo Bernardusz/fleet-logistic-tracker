@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15094ecd-11d2-4008-80a6-fdadcea81fd4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/backend/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/FleetLogisticTracker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/AuthController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/AuthRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/AuthService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/RefreshToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/SecurityConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/dto/LoginRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/dto/LoginResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/dto/RefreshTokenSessionResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/dto/RegisterRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/dto/UserSessionResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/filter/JwtAuthenticationFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/scheduler/TokenCleanupScheduler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/service/CustomUserDetailsService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/service/JwtService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/auth/service/RefreshTokenService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/ErrorResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/GlobalExceptionHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/existed/AlreadyExistsException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/existed/UserAlreadyExistsException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/external/ExternalException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/external/InvalidPasswordException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/external/RefreshTokenException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/internal/InternalServerException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/missing/NotFoundException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/exception/exceptions/missing/UserNotFoundException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/utils/CreateToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/shared/utils/EncodeNonNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/UserController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/UserRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/UserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserCreateRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserInformationResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserSecurity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserUpdateInformationRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserUpdatePasswordRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/kotlin/io/github/bernardusz/fleet_logistic_tracker/user/dto/UserUpdateRoleRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/backend/src/test/kotlin/io/github/bernardusz/fleet_logistic_tracker/TemplateKotlinApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/AGENTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/CLAUDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/pnpm-workspace.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/app/app.config.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/app/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/app/pages/index.page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="KmpPackageLockUpdaterState">{
+  &quot;jsModulesKotlinGradlePluginVersion&quot;: {},
+  &quot;wasmModulesKotlinGradlePluginVersion&quot;: {}
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KWSLnWybauKH009Pw1YBQe0Gso" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "android.gradle.sync.needed": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bernardus/projects/fleet-logistic-tracker/backend",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15094ecd-11d2-4008-80a6-fdadcea81fd4" name="Changes" comment="" />
+      <created>1791671777330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791671777330</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
