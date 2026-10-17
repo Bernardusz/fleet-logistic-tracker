@@ -1,4 +1,10 @@
+import { authnGuard } from '@/guards/authn.guard';
+import { RouteMeta } from '@analogjs/router';
 import { Component } from '@angular/core';
+
+export const routeMeta: RouteMeta = {
+  canActivate: [authnGuard]
+}
 
 @Component({
   selector: 'app-home',

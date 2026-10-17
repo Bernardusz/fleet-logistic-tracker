@@ -1,4 +1,3 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -20,9 +19,47 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": ["ES2022", "dom"],
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
     "useDefineForClassFields": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "./src/app/*"
+      ],
+      "@spartan-ng/helm/button": [
+        "./src/app/components/ui/button/src/index.ts"
+      ],
+      "@spartan-ng/helm/card": [
+        "./src/app/components/ui/card/src/index.ts"
+      ],
+      "@spartan-ng/helm/chart": [
+        "./src/app/components/ui/chart/src/index.ts"
+      ],
+      "@spartan-ng/helm/field": [
+        "./src/app/components/ui/field/src/index.ts"
+      ],
+      "@spartan-ng/helm/input": [
+        "./src/app/components/ui/input/src/index.ts"
+      ],
+      "@spartan-ng/helm/input-group": [
+        "./src/app/components/ui/input-group/src/index.ts"
+      ],
+      "@spartan-ng/helm/utils": [
+        "./src/app/components/ui/utils/src/index.ts"
+      ],
+      "@spartan-ng/helm/label": [
+        "./src/app/components/ui/label/src/index.ts"
+      ],
+      "@spartan-ng/helm/separator": [
+        "./src/app/components/ui/separator/src/index.ts"
+      ],
+      "@spartan-ng/helm/textarea": [
+        "./src/app/components/ui/textarea/src/index.ts"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
@@ -31,3 +68,5 @@
     "strictTemplates": true
   }
 }
+
+

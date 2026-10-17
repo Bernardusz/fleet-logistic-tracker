@@ -3,6 +3,7 @@
 import { defineConfig } from 'vite';
 import analog from '@analogjs/platform';
 import tailwindcss from '@tailwindcss/vite';
+import basicSsl from '@vitejs/plugin-basic-ssl'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -11,15 +12,16 @@ export default defineConfig(({ mode }) => ({
   },
   resolve: {
     mainFields: ['module'],
+    tsconfigPaths: true
   },
   plugins: [
     analog({
       ssr: false,
-      static: true,
-      prerender: {
-        routes: [],
-      },
     }),
-    tailwindcss()
+    tailwindcss(),
+    basicSsl()
   ],
+  server: {
+    https: true,
+  }
 }));
